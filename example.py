@@ -1,5 +1,5 @@
-from il_supermarket_scarper import ScarpingTask
 from il_supermarket_parsers import ConvertingTask
+from il_supermarket_scarper import ScarpingTask
 
 if __name__ == "__main__":
 
@@ -17,5 +17,3 @@ if __name__ == "__main__":
         multiprocessing=None,
         output_folder="outputs",
     ).start()
-
-    # checkout 'outputs' folder and 'dumps' folder
